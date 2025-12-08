@@ -5,18 +5,18 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 8584845317))
-API_HASH = getenv("API_HASH", "82f948ad9f8bdb879b53f27ea76407fd")
+API_ID = int(getenv("API_ID", ))
+API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 8396626499))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Adityaji3")
-BOT_USERNAME = getenv("BOT_USERNAME", "XMusicro_bot")
-BOT_NAME = getenv("BOT_NAME", "˹✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "XmusicAssistant")
+OWNER_ID = int(getenv("OWNER_ID", ))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "lll_VISHU_lll")
+BOT_USERNAME = getenv("BOT_USERNAME", "Amazon_musicv1_bot")
+BOT_NAME = getenv("BOT_NAME", "𝐴𝑚𝑜𝑧𝑜𝑛 𝑚𝑢𝑠𝑖𝑐𝑒 -> ˼[ ɴσ 𐓘ᴅ𝗌 ]")
+ASSUSERNAME = getenv("ASSUSERNAME", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-LOGGER_ID = int(getenv("LOGGER_ID", -1002524868057))
+LOGGER_ID = int(getenv("LOGGER_ID", ))
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "1200"))
