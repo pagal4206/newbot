@@ -38,8 +38,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/pagal4206/newbot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Xmusicsupport")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Xmusicsupport1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Amazonmusicnetwork")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Amazonmusicnetwork")
 
 AUTO_LEAVING_ASSISTANT = False
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "3600"))
@@ -55,23 +55,21 @@ STRING3 = getenv("STRING_SESSION3")
 STRING4 = getenv("STRING_SESSION4")
 STRING5 = getenv("STRING_SESSION5")
 
-START_VIDS = [
-    "https://files.catbox.moe/m1k6yr.mp4",
-]
+START_VIDS = ["https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"]
 STICKERS = [
     "CAACAgUAAx0Cd6nKUAACASBl_rnalOle6g7qS-ry-aZ1ZpVEnwACgg8AAizLEFfI5wfykoCR4h4E",
     "CAACAgUAAx0Cd6nKUAACATJl_rsEJOsaaPSYGhU7bo7iEwL8AAPMDgACu2PYV8Vb8aT4_HUPHgQ",
 ]
-START_IMG_URL = "https://files.catbox.moe/aojp6b.jpg"
-HELP_IMG_URL = "https://files.catbox.moe/hibcq5.jpg"
-PING_VID_URL = "https://files.catbox.moe/hemr2n.mp4"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/hibcq5.jpg"
-STATS_VID_URL = "https://files.catbox.moe/hemr2n.mp4"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/hibcq5.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/hibcq5.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/hibcq5.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/hibcq5.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/hibcq5.jpg"
+START_IMG_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
+HELP_IMG_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
+PING_VID_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
+PLAYLIST_IMG_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
+STATS_VID_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
+TELEGRAM_AUDIO_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
+TELEGRAM_VIDEO_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
+STREAM_IMG_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
+SOUNCLOUD_IMG_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
+YOUTUBE_IMG_URL = "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE"
 SPOTIFY_ARTIST_IMG_URL = SPOTIFY_ALBUM_IMG_URL = SPOTIFY_PLAYLIST_IMG_URL = YOUTUBE_IMG_URL
 
 def time_to_seconds(time: str) -> int:
@@ -81,8 +79,8 @@ DURATION_LIMIT = time_to_seconds(f"{DURATION_LIMIT_MIN}:00")
 
 AYU = ["💞", "🦋", "🔍", "🧪", "⚡️", "🔥", "🎩", "🌈", "🍷", "🥂", "🥃", "🕊️", "🪄", "💌", "🧨"]
 AYUV = [
-    "ʜᴇʟʟᴏ {0}, 🥀\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n🫧 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🪽 ➪ [𝐗ᴍᴜ𝐬ɪᴄ 𝐂ᴏᴅᴇʀ ✔︎](https://t.me/Aravji3)",
-    "ʜɪɪ, {0} ~\n\n◆ ɪ'ᴍ ᴀ {1} ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴜꜱᴇꜰᴜʟ\n◆ ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\n✨ ꜰᴇᴀᴛᴜʀᴇꜱ ⚡️\n◆ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.\n◆ Sᴜᴘᴇʀғᴀsᴛ ʟᴀɢ Fʀᴇᴇ ᴘʟᴀʏᴇʀ.\n◆ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ.\n◆ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍɪɴɢ.\n◆ ɴᴏ ᴘʀᴏᴍᴏ.\n◆ ʙᴇꜱᴛ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ.\n◆ 24×7 ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ.\n◆ ᴀᴅᴅ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ᴀᴅᴍɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜꜱɪᴄ 🎵.\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━🫧 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🪽 ➪ [𝐗ᴍᴜ𝐬ɪᴄ 𝐂ᴏᴅᴇʀ ✔︎](https://t.me/Aravji3)",
+    "ʜᴇʟʟᴏ {0}, 🥀\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫",
+    "ʜɪɪ, {0} ~\n\n◆ ɪ'ᴍ ᴀ {1} ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴜꜱᴇꜰᴜʟ\n◆ ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\n✨ ꜰᴇᴀᴛᴜʀᴇꜱ ⚡️\n◆ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.\n◆ Sᴜᴘᴇʀғᴀsᴛ ʟᴀɢ Fʀᴇᴇ ᴘʟᴀʏᴇʀ.\n◆ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ.\n◆ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍɪɴɢ.\n◆ ɴᴏ ᴘʀᴏᴍᴏ.\n◆ ʙᴇꜱᴛ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ.\n◆ 24×7 ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ.\n◆ ᴀᴅᴅ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ᴀᴅᴍɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜꜱɪᴄ 🎵.\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫",
 ]
 
 BANNED_USERS = filters.user()

@@ -12,7 +12,7 @@ BOT_INFO: Optional[types.User] = None
 BOT_ID: Optional[int] = None
 
 PHOTOS = [
-    "https://files.catbox.moe/dvxv1i.jpg",
+    "https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE",
 ]
 
 def _is_valid_url(url: Optional[str]) -> bool:

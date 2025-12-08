@@ -78,7 +78,7 @@ class Userbot:
 
             try:
                 await client.send_message(
-                    config.LOGGER_ID, f"Xmusic's Assistant {index} Started"
+                    config.LOGGER_ID, f"Amazon Assistant {index} Started"
                 )
             except Exception:
                 LOGGER(__name__).error(
@@ -96,7 +96,7 @@ class Userbot:
             LOGGER(__name__).error(f"Failed to start Assistant {index}: {e}")
 
     async def start(self):
-        LOGGER(__name__).info("Starting Xmusic's Assistants...")
+        LOGGER(__name__).info("Starting Amazon Assistants...")
         await self.start_assistant(self.one, 1)
         await self.start_assistant(self.two, 2)
         await self.start_assistant(self.three, 3)

@@ -87,7 +87,7 @@ async def chk_usr(_, message: Message):
             message.from_user.last_name,
         )
     if msg != "":
-        await message.reply_photo("https://files.catbox.moe/hibcq5.jpg", caption=msg)
+        await message.reply_photo("https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAELqNxpNwaiex_H4DMfIRvKkrnqATxN4QAC9AtrGx8PuFWK0QrJGhVCzAEAAwIAA3gAAzYE", caption=msg)
 
 
 @app.on_message(filters.group & filters.command("imposter") & ~filters.bot & ~filters.via_bot & admin_filter)
